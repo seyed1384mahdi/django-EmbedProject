@@ -18,6 +18,7 @@ LOCAL_APPS = [
     'codinghobbies.common.apps.CommonConfig',
     'codinghobbies.users.apps.UsersConfig',
     'codinghobbies.authentication.apps.AuthenticationConfig',
+    'codinghobbies.blog.apps.BlogConfig'
 ]
 
 THIRD_PARTY_APPS = [

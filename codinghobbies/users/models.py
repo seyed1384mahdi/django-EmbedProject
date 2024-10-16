@@ -63,12 +63,6 @@ class Profile(models.Model):
     subscriber_count = models.PositiveIntegerField(default=0)
     subscription_count = models.PositiveIntegerField(default=0)
     bio = models.CharField(max_length=1000, null=True, blank=True)
-
+    
     def __str__(self):
         return f"{self.user} >> {self.bio}"
-
-
-
-
-
-
